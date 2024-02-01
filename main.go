@@ -105,6 +105,7 @@ func greetUsers() {
 func getFirstNames() []string {
 	firstNames := []string{}
 	for _, booking := range bookings {
+		// The strings.Fields() splits the string using " " as separator
 		// var names = strings.Fields(booking)
 		// firstNames = append(firstNames, names[0])
 
